@@ -1,7 +1,7 @@
 # react-stepper-component
 stepper component for react.js
 
-![PNG](Capture.PNG)
+![alt text](capture.png)
 
 ## Installation
 
