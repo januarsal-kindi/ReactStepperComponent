@@ -1,5 +1,5 @@
-# react-native-slideshow
-A quick and easy slideshow for react native. (Android & iOS)
+# react-stepper-component
+stepper component for react.js
 
 ![PNG](Capture.PNG)
 
