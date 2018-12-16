@@ -1,0 +1,85 @@
+
+
+.stepper__row  
+  width: max-content 
+  display: flex 
+  justify-content: center
+  text-align: left
+ 
+.stepper--horizontal  
+  display: flex 
+  position: relative 
+  margin: 0px 10px 0px 10px
+ 
+  &__circle:hover
+    background-color: #388CF3
+    &__text 
+      align-self: center 
+      font-size: 18px 
+      font-weight: 500 
+      color: #ffffff
+  &__circle
+    cursor: pointer  
+    border-radius: 50%
+    border: solid 2px #388CF3
+    width: 60px 
+    height: 60px 
+    display: flex 
+    justify-content: center 
+    align-self: center
+    margin-top: -10px
+    &__text  
+      align-self: center 
+      font-size: 18px 
+      font-weight: 500 
+      color: #388CF3
+   
+  &__details  
+    margin-left: 24px 
+    align-self: center 
+    .paragraph  
+      margin-top: 2px    
+  &:last-child
+    &:after 
+      content: ''
+      display: none
+    
+  
+  &:after 
+      position: absolute
+      right: -42px
+      top: 8px
+    
+ 
+
+.stepper--horizontal--disabled 
+  .stepper--horizontal__circle 
+    cursor: pointer
+    border-radius: 50%
+    border: solid 2px rgba(62, 78, 104, 0.7)
+    opacity: 0.4
+    &__text 
+      color: rgba(62, 78, 104, 0.7)
+  .stepper--horizontal__circle:hover
+       background-color: white
+    
+
+
+.stepper--horizontal--active
+  .stepper--horizontal__circle 
+    cursor: pointer
+    border-radius: 50%
+    background-color: #388CF3
+    color: white
+    &__text 
+      color: white
+
+  .stepper--horizontal__details 
+    .paragraph 
+      margin-top: 2px
+      color: rgba(62, 78, 104, 0.8)
+    
+    .heading__three
+      color: rgba(62, 78, 104, 0.7)
+    
+  
