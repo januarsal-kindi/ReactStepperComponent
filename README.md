@@ -1,7 +1,7 @@
 # react-native-slideshow
 A quick and easy slideshow for react native. (Android & iOS)
 
-![GIF](demo1.gif) ![GIF](demo2.gif)
+![PNG](Capture.PNG)
 
 ## Installation
 
@@ -30,10 +30,10 @@ render() {
             </Stepper.Title>
             <Stepper.Detail>
                 <Stepper.TitleHeadline >
-                    Account Instagram
+                   Step One
                 </Stepper.TitleHeadline>
                 <Stepper.Description>
-                    Registartion Instagram
+                    Description of step one
                 </Stepper.Description>
             </Stepper.Detail>
         </Stepper.Content>
@@ -43,10 +43,10 @@ render() {
             </Stepper.Title>
             <Stepper.Detail>
                 <Stepper.TitleHeadline>
-                    Plan
+                    Step Two
                 </Stepper.TitleHeadline>
                 <Stepper.Description>
-                    Choose Your Plan
+                    Description of step Two
                 </Stepper.Description>
             </Stepper.Detail>
         </Stepper.Content>
@@ -57,10 +57,10 @@ render() {
             </Stepper.Title>
             <Stepper.Detail>
                 <Stepper.TitleHeadline>
-                     Payment
+                     Step Three
                 </Stepper.TitleHeadline>
                 <Stepper.Description>
-                    Choose Your Plan
+                     Description of step three
                 </Stepper.Description>
             </Stepper.Detail>
 
