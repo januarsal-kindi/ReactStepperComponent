@@ -1,6 +1,6 @@
 {
-    "name": "react-stepper-component",
-    "version": "1.0.3",
+    "name": "reactjs-stepper-component",
+    "version": "1.0.1",
     "description": "React Stepper Component",
     "main": "./lib/ReactStepperComponent.js",
     "license": "MIT",
